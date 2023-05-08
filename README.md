@@ -47,7 +47,7 @@ eksctl version
 Step5: MASTER Cluster creation:
 eksctl create cluster --name=eksdemo \
                   --region=us-west-1 \
-                  --zones=us-west-1b,us-west-1c \
+                  --zones=us-west-1a,us-west-1c \
                   --without-nodegroup 
 
 Step6: Add Iam-Oidc-Providers:
